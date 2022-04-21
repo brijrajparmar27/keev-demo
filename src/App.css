@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+.App{
+  background-color: antiquewhite;
+  height: 100vh;
+  font-family: 'Encode Sans', sans-serif;
+}
+.content{
+  background-color: aqua;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "header"
+  "body";
+}
+.header{
+  background-color: #075fc9;
+  grid-area: header;
+}
+.bodycontent{
+  background-color: white;
+  grid-area: body;
+  padding-top: 100px;
+}

@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.header .app_title{
+    display: flex;
+    gap: 5px;
+}
+.header .app_title i{
+    font-size: 30px;
+}
+.header .header_items_parent{
+    padding-top: 20px;
+    height: 100%;
+    width: 75%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.context_contain{
+    /* background-color: teal; */
+    display: flex;
+    justify-content: space-between;
+}
+.context_stuff{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.context_contain .contexts{
+    display: flex;
+    gap: 30px;
+}
+
+.context_contain .contexts a{
+    text-decoration: none;
+    color: white;
+}
+
+.title_contain{
+    display: flex;
+    justify-content: center;
+/* background-color: bisque; */
+}
+
+.cards_contain{
+/* background-color: yellowgreen; */
+display: flex;
+justify-content: space-between;
+}

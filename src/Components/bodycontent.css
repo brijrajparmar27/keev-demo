@@ -1,0 +1,33 @@
+.bodycontent{
+    display: flex;
+    justify-content: center;
+}
+.body_inside{
+    /* background-color: aqua; */
+    width: 75%;
+}
+.menu_buttons{
+    display: flex;
+}
+.menu_buttons .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 130px;
+    cursor: pointer;
+    background-color: white;
+}
+.menu_content{
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    padding: 30px;
+}
+.active{
+    /* background-color: blue !important; */
+    border-top: 1px solid rgba(128, 128, 128, 0.418);;
+    border-left: 1px solid rgba(128, 128, 128, 0.418);;
+    border-right: 1px solid rgba(128, 128, 128, 0.418);
+    transform: translateY(1px);
+}

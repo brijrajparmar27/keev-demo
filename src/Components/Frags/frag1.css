@@ -1,0 +1,65 @@
+.frag1 .heading {
+  display: flex;
+  gap: 20px;
+}
+.frag1 .heading .ImExBtn_contain {
+  display: flex;
+  gap: 5px;
+}
+.frag1 .heading .ImExBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef4f0;
+  color: blue;
+  border: 1px solid blue;
+  height: 25px;
+  width: 60px;
+}
+.frag1 .options {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  gap: 5px;
+}
+.frag1 .options a {
+  text-decoration: none;
+}
+.product_row {
+  font-size: 10px;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid rgba(199, 199, 199, 0.596);
+}
+.prod_cb {
+  flex: 0.3;
+}
+.prod_thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.prod_thumb img {
+  height: 30px;
+  width: 25px;
+}
+.prod_name {
+  flex: 4;
+}
+.prod_stock {
+  flex: 2;
+  color: green;
+}
+.prod_price {
+  flex: 1;
+}
+.prod_date {
+  flex: 2;
+}
+.products_heading {
+  font-size: 12px;
+  color: blue;
+}
+.products_heading .prod_stock {
+  color: blue;
+}
